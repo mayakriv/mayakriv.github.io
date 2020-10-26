@@ -5,17 +5,17 @@
 ### RAMUS - программное средство разработки структурно-функциональных моделей
 Текст с постановкой задачи: Типографщик должен напечатать книгу
 
-![none](лр 1/лр 1 1.PNG)
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%201/лр%201%201.PNG)
 
 Текст после построения диаграммы: Типографщик напечатал книгу по заказу с помощью принтера, используя бумагу и краску.
 
 ### PLANTUML - программное средство автоматической генерации UML-диаграмм
 #### Class diagram
-![none](лр 1/лр 1 2.PNG)
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%201/лр%201%202.PNG)
 
 
 #### Usecase diagram
-![none](лр 1/лр 1 3.png)
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%201/лр%201%203.png)
 
 
 
