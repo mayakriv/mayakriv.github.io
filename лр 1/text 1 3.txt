@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Типографщик" as P {
+ Принтер
+Напечатать (Бумага, Краски, Заказ): Книга 
+}
+hide circle
+@enduml
