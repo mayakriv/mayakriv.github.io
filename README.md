@@ -25,11 +25,11 @@
 
 ### PDC
 
-![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%202/лр%202%202.PNG)
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%202/лр%202%202%20new.PNG)
 
 ### DFD Автоматизация блока управления печатью
 
-![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%202/лр%202%203.PNG)
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%202/лр%202%203%20new.PNG)
 
 
 
