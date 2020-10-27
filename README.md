@@ -39,6 +39,9 @@
 
 ![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%202/лр%202%204.jpg)
 
+[Код](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%203/text2.txt)
+
+## Лабораторная 2
 # Лабораторная 3
 
 ## Диаграмма последовательности
