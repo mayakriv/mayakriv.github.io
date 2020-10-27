@@ -12,13 +12,13 @@
 ### PLANTUML - программное средство автоматической генерации UML-диаграмм
 #### Class diagram
 ![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%201/лр%201%203%20new.png)
-[Код]
-(https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%201/text%201%203.txt)
+
+[Код](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%201/text%201%203.txt)
 
 #### Usecase diagram
 ![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%201/лр%201%202.PNG)
-[Код]
-(https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%201/text%201%202.txt)
+
+[Код](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%201/text%201%202.txt)
 ## Лабораторная 2
 
 ### IDEF0
