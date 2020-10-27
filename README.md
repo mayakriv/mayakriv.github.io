@@ -17,5 +17,27 @@
 #### Usecase diagram
 ![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%201/лр%201%203.png)
 
+## Лабораторная 2
+
+### IDEF0
+
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%202/лр%202%201.PNG)
+
+### PDC
+
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%202/лр%202%202.PNG)
+
+### DFD Автоматизация блока управления печатью
+
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%202/лр%202%203.PNG)
+
+
+
+### Диаграмма прецедентов
+
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%202/лр%202%204.jpg)
+
+
+
 
 
