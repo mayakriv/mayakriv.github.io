@@ -37,7 +37,21 @@
 
 ![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%202/лр%202%204.jpg)
 
+# Лабораторная 3
 
+## Диаграмма последовательности
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%203/лр%203%201.png)
+
+[Код](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%203/text3.txt)
+
+Администратор отправляет заказ в виде требований покупателя помощнику типографщика, а тот подтверждает получение заказа.
+
+## ER-диаграмма
+![none](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%203/лр%203%202.png)
+
+[Код](https://github.com/mayakriv/mayakriv.github.io/blob/main/лр%203/text%203%201.txt)
+
+Заказ является записью Базы данных, которая относится к Информационным потокам, и состоит из: Требований, Отзыва покупателя и Книги.
 
 
 
