@@ -1,0 +1,43 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class pot as "Потоки"
+
+
+class In as "Входящий"
+class Out as "Выходящий"
+class man as "Управляющий"
+
+class inf as "Информация"
+class vnesh as "Внешний"
+class vnutr as "Внутренний"
+class comp as "Выполненный заказ"
+
+class res as "ресурсы"
+class rule as "Правила электронного документооборота"
+class Use as "Должностные инструкции"
+
+
+pot <|-- In
+pot <|-- Out
+pot <|-- man 
+
+In<|-- inf
+
+man <|-- vnesh 
+man <|-- vnutr 
+
+Out<|-- comp
+ 
+inf<|-- res
+
+vnesh <|-- rule 
+vnutr <|-- Use 
+
+hide members
+hide circle
+hide methods
+@enduml
