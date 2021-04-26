@@ -13,6 +13,17 @@ class module as "Модуль обработки"
 
 class formotch as "Форма отчета"
 class formdoc as "Форма договора"
+skinparam monochrome true
+class Role as "Модуль"
+
+
+
+class form as "Экранная форма"
+class printform as "Печатная форма"
+class module as "Модуль обработки"
+
+class formotch as "Форма отчета"
+class formdoc as "Форма договора"
 class otch as "Отчет"
 class doc as "Договор"
 class tgm as "Обеспечение работы Telegram-бота"
