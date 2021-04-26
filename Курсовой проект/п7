@@ -1,0 +1,17 @@
+@startuml
+skinparam monochrome true
+
+node "Сервер БД" {
+  DB - [СУБД]
+}
+
+node "Информационная система" {
+  System- [Обработка данных]
+  [System] --> DB
+}
+
+node "ПК сотрудника"{
+  User - [Приложение]
+  [User] --> System
+}
+@enduml
