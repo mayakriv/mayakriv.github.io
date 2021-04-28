@@ -21,24 +21,9 @@
 
         {
             "type": "image",
-            "data": "img/01_A0.png"
+            "data": "img/А0.PNG"
         },
-          {
-            "type": "image",
-            "data": "img/04_A2.png"
-        },
-          {
-            "type": "image",
-            "data": "img/06_A3.png"
-        },
-            {
-            "type": "image",
-            "data": "img/08_A32.png"
-        },
-            {
-            "type": "image",
-            "data": "img/06_A3.png"
-        },
+          
         {
             "type": "text",
             "data": [
