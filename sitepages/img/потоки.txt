@@ -1,0 +1,44 @@
+
+@startuml
+skinparam monochrome true
+
+
+class In as "Входящий"
+class Out as "Выходящий"
+class man as "Управляющий"
+
+class inf as "Информация"
+class vnesh as "Внешний"
+class vnutr as "Внутренний"
+
+class comp as "Выполненный заказ"
+class tgm as "Информирование клиента"
+class no as "Невозможность выполнения заказа"
+
+class res as "Заявка на продукцию"
+class rule as "Правила электронного документооборота"
+class Use as "Должностные инструкции"
+
+
+Потоки <|-- In
+Потоки <|-- Out
+Потоки <|-- man 
+
+In <|-- inf
+
+man <|-- vnesh 
+man <|-- vnutr 
+
+Out<|-- comp
+Out<|-- tgm 
+Out<|-- no
+ 
+inf<|-- res
+
+vnesh <|-- rule 
+vnutr <|-- Use 
+
+hide members
+hide circle
+hide methods
+@enduml

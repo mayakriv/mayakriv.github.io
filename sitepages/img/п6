@@ -1,0 +1,17 @@
+@startuml
+skinparam monochrome true
+
+actor Менеджер as user
+participant "Информационная система" as system
+database "База данных" as base
+
+user -> system : Согласование заявки
+activate system
+system -> base : Обновление информации о заявке
+activate base
+base -> system : Создание задачи-звонка клиенту для менеджера
+
+deactivate base
+system -> user : Отображение необходимости звонка клиенту для оформления заказа
+deactivate system
+@enduml

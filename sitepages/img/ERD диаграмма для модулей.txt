@@ -1,0 +1,28 @@
+@startuml
+skinparam monochrome true
+class Role as "Модуль"
+
+class form as "Экранная форма"
+class printform as "Печатная форма"
+class module as "Модуль обработки"
+
+class formotch as "Форма отчета"
+class formdoc as "Форма договора"
+class otch as "Отчет"
+class doc as "Договор"
+class tgm as "Обеспечение работы Telegram-бота"
+
+Role <|-- form 
+Role <|-- printform 
+Role <|-- module 
+
+form <|-- formotch 
+form <|-- formdoc 
+printform <|-- otch 
+printform <|-- doc
+module <|-- tgm 
+
+hide members
+hide circle
+hide methods
+@enduml

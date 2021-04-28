@@ -1,0 +1,32 @@
+@startuml
+skinparam monochrome true
+class Role as "Роль"
+
+
+class Sotr as "Сотрудники"
+class instr as "Инструменты войздействия"
+
+
+class ptrint as "Печатник"
+class des as "Дизайнер"
+class manag as "Менеджер"
+class tech as "Технолог"
+class del as "Курьер"
+class crm as "1С:Предприятие"
+class tgm as "Чат-бот"
+
+Role <|-- Sotr
+Role <|-- instr 
+
+Sotr <|-- ptrint 
+Sotr <|-- des
+Sotr <|-- manag 
+Sotr <|-- tech 
+Sotr <|-- del
+instr <|-- crm 
+instr <|-- tgm 
+
+hide members
+hide circle
+hide methods
+@enduml
