@@ -1,7 +1,7 @@
 # Кривопалова М.С. Проектирование информационных систем 2020-2021
    
   
-  ##2020
+## 2020
 ## Домашние задания по [семинару 1](https://github.com/stankin/design-part-1/wiki/sem1#Кривопалова-Майя)
 ## Домашние задания по [семинару 2](https://github.com/stankin/design-part-1/wiki/sem2#Кривопалова-Майя)
 ## Домашние задания по [семинарам 3-4](https://github.com/mayakriv/mayakriv.github.io/blob/main/семинар/семинар%203-4.md)
