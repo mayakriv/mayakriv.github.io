@@ -12,7 +12,7 @@
 
 # 2021
 ## [Курсовой проект](https://github.com/mayakriv/mayakriv.github.io/wiki/Курсовой-проект-2021)
-## [Лабораторные работы](https://mayakriv.github.io/sitepages) Github Pages
+## [Лабораторные работы](https://mayakriv.github.io/Krivopalovapage/#!/topics) Github Pages
 
 
 
