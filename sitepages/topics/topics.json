@@ -3,17 +3,6 @@
         "id": 1,
         "title": "Лабораторная №1",
         "description": "Подготовка диаграмм IDEF0 курсового проекта",
-        "preview": "img/01_A0.png"
-    },
-    {
-        "id": 2,
-        "title": "Лабораторная №2",
-        "description": "Подготовка диаграмм DFD курсового проекта",
-        "preview": "img/07_A31.png"
-    },
-     {
-        "id": 3,
-        "title": "Лабораторные №3-7",
-        "description": "Подготовка UML диаграмм курсовго проекта. Разработка UML Use Case, разработка UML Class, разработка UML Sequence, разработка UML Component",
-        "preview": "img/Роли.png"
+        "preview": "img/А0.PNG"
     }
+    
