@@ -3,7 +3,7 @@
    
   
 # 2020
-## Отчет о [лабораторных работах](https://github.com/mayakriv/mayakriv.github.io/blob/master/отчет%20лр1-4/readme.md) Кривопалова М.С.
+## Отчет о [лабораторных работах](https://github.com/mayakriv/mayakriv.github.io/blob/master/отчет%20лр1-4/readme.md) 
 ## Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam09-2) и [проверенный](https://github.com/stankin/design-part-1/wiki/exam13-2)
 ## Домашние задания:
 ### Домашние задания по [семинару 1](https://github.com/stankin/design-part-1/wiki/sem1#Кривопалова-Майя)   
