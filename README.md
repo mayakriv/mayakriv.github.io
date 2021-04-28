@@ -6,7 +6,7 @@
 ### Домашние задания по [семинару 2](https://github.com/stankin/design-part-1/wiki/sem2#Кривопалова-Майя)
 ### Домашние задания по [семинарам 3-4](https://github.com/mayakriv/mayakriv.github.io/blob/main/семинар/семинар%203-4.md)
 ### Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam09-2) и [проверенный](https://github.com/stankin/design-part-1/wiki/exam13-2)
-# Отчет о лабораторных работах Кривопалова М.С. [идб-17-07](https://github.com/stankin/design-part-1/wiki/list-idb-17-07)
+# [Отчет](https://github.com/mayakriv/mayakriv.github.io/blob/master/отчет%20лр1-4/readme.md) о лабораторных работах Кривопалова М.С. [идб-17-07](https://github.com/stankin/design-part-1/wiki/list-idb-17-07)
 ## Лабораторная 1
 
 ### RAMUS - программное средство разработки структурно-функциональных моделей
