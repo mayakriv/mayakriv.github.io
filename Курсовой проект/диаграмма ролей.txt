@@ -5,6 +5,7 @@ class Role as "Роль"
 
 class Sotr as "Сотрудники"
 class instr as "Инструменты войздействия"
+class klnt as "Клиент"
 
 
 class ptrint as "Печатник"
@@ -17,6 +18,7 @@ class tgm as "Чат-бот"
 
 Role <|-- Sotr
 Role <|-- instr 
+Role <|-- klnt 
 
 Sotr <|-- ptrint 
 Sotr <|-- des
