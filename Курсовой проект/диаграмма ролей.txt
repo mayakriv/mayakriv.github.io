@@ -4,7 +4,7 @@ class Role as "Роль"
 
 
 class Sotr as "Сотрудники"
-class instr as "Инструменты войздействия"
+class instr as "Инструменты воздействия"
 class klnt as "Клиент"
 
 
