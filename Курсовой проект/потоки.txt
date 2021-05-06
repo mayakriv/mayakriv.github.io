@@ -1,8 +1,10 @@
 
 @startuml
-skinparam monochrome true
-
-
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
 class In as "Входящий"
 class Out as "Выходящий"
 class man as "Управляющий"
@@ -16,6 +18,7 @@ class tgm as "Информирование клиента"
 class no as "Невозможность выполнения заказа"
 
 class res as "Заявка на продукцию"
+class klient as "Требования клиента"
 class rule as "Правила электронного документооборота"
 class Use as "Должностные инструкции"
 
@@ -36,6 +39,7 @@ Out<|-- no
 inf<|-- res
 
 vnesh <|-- rule 
+vnesh <|-- klient 
 vnutr <|-- Use 
 
 hide members
