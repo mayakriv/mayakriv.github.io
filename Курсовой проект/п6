@@ -7,9 +7,43 @@ database "База данных" as base
 actor Менеджер as mng
 
 user -> srv : Отправление команды чат-боту
+activate srv
 srv -> base : Создание заявки 
-mng -> base : Согласование или отказ заявки
+activate base
 base -> mng : Получение информации о заявках
+mng -> base : Согласование или отказ заявки
 base -> srv : Информация о согласовании или отказе заявки
+deactivate base
 srv -> user : Результат рассмотрения заявки
+deactivate srv
+
+srv -> user : Запрос контакта для связи в случае согласования заявки
+activate srv
+user -> srv : Контакт для звонка
+srv -> base : Создание задачи-звонка 
+deactivate srv
+activate base
+base -> mng : Получение информации о звонках
+deactivate base
+
+mng -> user : Звонок дляоформления заказа
+user -> mng : Данные для оформления заказа
+
+
+mng -> base : Изменение статуса заказа
+activate base
+base -> srv : Данные о заказе
+deactivate base
+activate srv
+srv -> user : Информирование клиента о статусе заказа
+deactivate srv
+
+srv -> user : Запрос отзыва клиента
+activate srv
+user -> srv : Отзыв
+srv -> base : Создание отзыва 
+deactivate srv
+activate base
+base -> mng : Получение информации об отзывах
+deactivate base
 @enduml
