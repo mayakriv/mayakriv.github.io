@@ -8,7 +8,7 @@ database "База данных" as base
 participant "CRM-система" as crm
 actor Менеджер as mng
 
-user -> tgm : Отправление сообщения-команды чат-боту
+user -> tgm : Отправление сообщения-команды \n чат-боту
 activate tgm
 tgm -> srv : Получение и интерпретация команды
 activate srv
@@ -17,7 +17,7 @@ activate base
 base -> crm : Получение информации о заявках
 activate crm
 crm -> mng : Просмотр заявок
-mng -> crm : Решение о согласовании или отказе заявки
+mng -> crm : Решение о согласовании \n или отказе заявки
 crm -> base : Изменение статуса заявки
 deactivate crm
 base -> srv : Информация о согласовании \n или отказе заявки
