@@ -2,48 +2,79 @@
 skinparam monochrome true
 
 actor Клиент as user
+participant "Приложение \n Telegram" as tgm
 entity Сервер as srv
 database "База данных" as base
+participant "CRM-система" as crm
 actor Менеджер as mng
 
-user -> srv : Отправление команды чат-боту
+user -> tgm : Отправление сообщения-команды чат-боту
+activate tgm
+tgm -> srv : Получение и интерпретация команды
 activate srv
 srv -> base : Создание заявки 
 activate base
-base -> mng : Получение информации о заявках
-mng -> base : Согласование или отказ заявки
-base -> srv : Информация о согласовании или отказе заявки
+base -> crm : Получение информации о заявках
+activate crm
+crm -> mng : Просмотр заявок
+mng -> crm : Решение о согласовании или отказе заявки
+crm -> base : Изменение статуса заявки
+deactivate crm
+base -> srv : Информация о согласовании \n или отказе заявки
 deactivate base
-srv -> user : Результат рассмотрения заявки
+srv -> tgm : Результат рассмотрения заявки
 deactivate srv
+tgm -> user : Сообщение с результатом \n рассмотрения заявки
+deactivate tgm
 
-srv -> user : Запрос контакта для связи в случае согласования заявки
+srv -> tgm : Запрос контакта для связи \n в случае согласования заявки
+activate tgm
 activate srv
-user -> srv : Контакт для звонка
+tgm -> user : Сообщение запрашивающее \n контакт для звонка
+user -> tgm : Отправление контакта для звонка
+tgm -> srv : Получение контакта для звонка
+deactivate tgm
 srv -> base : Создание задачи-звонка 
 deactivate srv
 activate base
-base -> mng : Получение информации о звонках
+base -> crm : Получение информации о звонках
 deactivate base
+activate crm
+crm -> mng : Просмотр звонков
+deactivate crm
+
 
 mng -> user : Звонок дляоформления заказа
 user -> mng : Данные для оформления заказа
 
 
-mng -> base : Изменение статуса заказа
+mng -> crm : Решение о смене статуса заказа
+activate crm
+crm -> base : Изменение статуса заказа
+deactivate crm
 activate base
 base -> srv : Данные о заказе
 deactivate base
 activate srv
-srv -> user : Информирование клиента о статусе заказа
+srv -> tgm : Информирование клиента о статусе заказа
 deactivate srv
+activate tgm
+tgm -> user : Сообщение с измененным \n статусом заказа
+deactivate tgm
 
-srv -> user : Запрос отзыва клиента
+srv -> tgm : Запрос отзыва клиента
+activate tgm
 activate srv
-user -> srv : Отзыв
+tgm -> user : Сообщение запрашивающее \n отзыв клиента
+user -> tgm : Отправление сообщения с отзывом
+tgm -> srv : Получение отзыва
+deactivate tgm
 srv -> base : Создание отзыва 
 deactivate srv
 activate base
-base -> mng : Получение информации об отзывах
+base -> crm : Получение информации об отзывах
 deactivate base
+activate crm
+crm -> mng : Просмотр отзывов
+deactivate crm
 @enduml
