@@ -2,7 +2,7 @@
 skinparam monochrome true
 left to right direction
 
-inf as "Информационная система"
+inf as "CRM-система"
 
 inf --> (Создать заявку)
 inf --> (Проверить требования заказчика на выполнимость)
